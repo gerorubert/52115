@@ -1,0 +1,4 @@
+function leerNumero() {
+  leer(numero);
+  escribir("Ingresaste: " + numero);
+}

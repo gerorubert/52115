@@ -1,0 +1,5 @@
+function saludar() { 
+  escribi("Hola");
+  leer(nombre);
+  escribir("Tu nombre es: " + nombre);
+}
