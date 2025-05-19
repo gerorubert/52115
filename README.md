@@ -12,24 +12,21 @@ ANTLR4 (se incluye el comando generado)
 
  Instrucciones para ejecutar 
 
-Clonar el repositorio: 
+1. Clonar el repositorio: 
 
 git clone https://github.com/gerorubert/52115 
 
  
-
 2. Instalar dependencias: 
 
 Desde la terminal de VS Code se debe ejecutar:  npm install 
 
- 
 
 3. Generar los archivos con ANTLR (si aún no están generados): 
 
 npx antlr4-js gramatica.g4 -o generated –visitor 
 
  
-
 4. Ejecutar con un archivo de entrada: 
 
 - Por ejemplo, para `input-correcto-1.txt`: 
