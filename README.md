@@ -29,9 +29,11 @@ npx antlr4-js gramatica.g4 -o generated –visitor
  
 4. Ejecutar con un archivo de entrada: 
 
-- Por ejemplo, para `input-correcto-1.txt`: 
+- Por ejemplo, para `input-correcto-1.txt`; se debe ejecutar desde la terminal: 
 
-node index.mjs / npm start  
+node index.mjs 
+o
+npm start  
 
  
 Archivos de prueba: 
