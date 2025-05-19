@@ -8,7 +8,7 @@ Este proyecto es un analizador sintáctico implementado con ANTLR4 y Node.js. An
 
 Node.js versión 18 o superior 
 
-ANTLR4 (se incluye el comando generado) 
+ANTLR4 
 
  Instrucciones para ejecutar 
 
@@ -49,9 +49,9 @@ Modificar la linea 10 del archivo index.mjs para cambiar entre los distintos eje
 Que realiza el analizador? 
 
 
-- Detecta y clasifica los tokens (palabras clave, identificadores, operadores, cadenas, etc.).Genera una tabla de tokens con sus lexemas. 
+- Detecta y clasifica los tokens (palabras clave, identificadores, operadores, cadenas, etc.). Genera una tabla de tokens con sus lexemas. 
 
-- Verifica si el código fuente sigue la estructura gramatical definida.Si hay errores de sintaxis, los reporta con línea y columna. Si no es asi construye el árbol de derivación sintáctico. 
+- Verifica si el código fuente sigue la estructura gramatical definida. Si hay errores de sintaxis, los reporta con línea y columna. Si no es asi construye el árbol de derivación sintáctico. 
 
 - Interpreta el código si la entrada es válida, ejecutando instrucciones `leer`, `escribir` y asignaciones. Ejecuta funciones definidas en el código fuente. 
 
