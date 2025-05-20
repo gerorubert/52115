@@ -20,6 +20,8 @@ git clone https://github.com/gerorubert/52115
 2. Instalar dependencias: 
 
 Desde la terminal de VS Code se debe ejecutar:  npm install 
+Antes de realizar esto, verificar que este en la carpeta del analizador, sino devolvera error.
+Llegar a la carpeta con: cd C:\ User\..\....\..\52115\final (en los puntos suspensivos se esperan las carpetas intermedias si las hay)
 
 
 3. Generar los archivos con ANTLR (si aún no están generados): 
